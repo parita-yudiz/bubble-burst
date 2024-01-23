@@ -1,0 +1,305 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": [
+                    "assets/sounds/Background.mp3"
+                ],
+                "type": "audio",
+                "key": "Background"
+            },
+            {
+                "url": "src/prefabs/BalloonPrefab.js",
+                "type": "script",
+                "key": "BalloonPrefab"
+            },
+            {
+                "url": "assets/images/Bg.png",
+                "type": "image",
+                "key": "Bg"
+            },
+            {
+                "url": "assets/images/Blue-bubble.png",
+                "type": "image",
+                "key": "Blue-bubble"
+            },
+            {
+                "url": "assets/images/Blue-bubble-burst.png",
+                "frameConfig": {
+                    "frameWidth": 268,
+                    "frameHeight": 232,
+                    "startFrame": 0,
+                    "endFrame": 2,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Blue-bubble-burst"
+            },
+            {
+                "url": [
+                    "assets/sounds/BubbleBurst.wav"
+                ],
+                "type": "audio",
+                "key": "BubbleBurst"
+            },
+            {
+                "url": [
+                    "assets/sounds/BubbleClick.mp3"
+                ],
+                "type": "audio",
+                "key": "BubbleClick"
+            },
+            {
+                "url": [
+                    "assets/sounds/ButtonClick.mp3"
+                ],
+                "type": "audio",
+                "key": "ButtonClick"
+            },
+            {
+                "url": [
+                    "assets/sounds/ClockTick.mp3"
+                ],
+                "type": "audio",
+                "key": "ClockTick"
+            },
+            {
+                "url": "assets/images/Count-board.png",
+                "type": "image",
+                "key": "Count-board"
+            },
+            {
+                "url": "src/scenes/game.js",
+                "type": "sceneFile",
+                "key": "game"
+            },
+            {
+                "url": "assets/images/Game-over-board.png",
+                "type": "image",
+                "key": "Game-over-board"
+            },
+            {
+                "url": "assets/images/Game-over-screen.png",
+                "type": "image",
+                "key": "Game-over-screen"
+            },
+            {
+                "url": "assets/images/Game-play-preview.png",
+                "type": "image",
+                "key": "Game-play-preview"
+            },
+            {
+                "url": "src/scripts/GameManager.js",
+                "type": "script",
+                "key": "GameManager"
+            },
+            {
+                "url": "src/scenes/GameOver.js",
+                "type": "sceneFile",
+                "key": "GameOver"
+            },
+            {
+                "url": "assets/images/GameOver.png",
+                "type": "image",
+                "key": "GameOver_1"
+            },
+            {
+                "url": [
+                    "assets/sounds/GameOver.mp3"
+                ],
+                "type": "audio",
+                "key": "GameOver"
+            },
+            {
+                "url": "assets/images/Green-bubble.png",
+                "type": "image",
+                "key": "Green-bubble"
+            },
+            {
+                "url": "assets/images/Green-bubble-burst.png",
+                "frameConfig": {
+                    "frameWidth": 268,
+                    "frameHeight": 232,
+                    "startFrame": 0,
+                    "endFrame": 2,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Green-bubble-burst"
+            },
+            {
+                "url": "assets/images/Home-button.png",
+                "type": "image",
+                "key": "Home-button"
+            },
+            {
+                "url": "src/scripts/InputManager.js",
+                "type": "script",
+                "key": "InputManager"
+            },
+            {
+                "url": "assets/images/Logo.png",
+                "type": "image",
+                "key": "Logo"
+            },
+            {
+                "url": "assets/images/Moves.png",
+                "type": "image",
+                "key": "Moves"
+            },
+            {
+                "url": "assets/images/Orange-bubble.png",
+                "type": "image",
+                "key": "Orange-bubble"
+            },
+            {
+                "url": "assets/images/Orange-bubble-burst.png",
+                "frameConfig": {
+                    "frameWidth": 268,
+                    "frameHeight": 232,
+                    "startFrame": 0,
+                    "endFrame": 2,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Orange-bubble-burst"
+            },
+            {
+                "url": "assets/images/Play-button.png",
+                "type": "image",
+                "key": "Play-button"
+            },
+            {
+                "url": [
+                    "assets/sounds/PointCollect.mp3"
+                ],
+                "type": "audio",
+                "key": "PointCollect"
+            },
+            {
+                "url": "assets/animations/popAnimation.json",
+                "type": "animation",
+                "key": "popAnimation"
+            },
+            {
+                "url": "assets/fonts/Purple Smile.ttf",
+                "type": "binary",
+                "key": "Purple Smile"
+            },
+            {
+                "url": "assets/images/Purple-bubble.png",
+                "type": "image",
+                "key": "Purple-bubble"
+            },
+            {
+                "url": "assets/images/purple-bubble-burst.png",
+                "frameConfig": {
+                    "frameWidth": 268,
+                    "frameHeight": 232,
+                    "startFrame": 0,
+                    "endFrame": 2,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "purple-bubble-burst"
+            },
+            {
+                "url": "assets/images/Red-bubble.png",
+                "type": "image",
+                "key": "Red-bubble"
+            },
+            {
+                "url": "assets/images/Red-bubble-burst.png",
+                "frameConfig": {
+                    "frameWidth": 268,
+                    "frameHeight": 232,
+                    "startFrame": 0,
+                    "endFrame": 2,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Red-bubble-burst"
+            },
+            {
+                "url": "assets/images/Replay-Button.png",
+                "type": "image",
+                "key": "Replay-Button"
+            },
+            {
+                "url": "assets/images/Score-Board.png",
+                "type": "image",
+                "key": "Score-Board"
+            },
+            {
+                "url": "src/scripts/SocketManager.js",
+                "type": "script",
+                "key": "SocketManager"
+            },
+            {
+                "url": "assets/images/Sound-Off-Button.png",
+                "type": "image",
+                "key": "Sound-Off-Button"
+            },
+            {
+                "url": "assets/images/Sound-On-button.png",
+                "type": "image",
+                "key": "Sound-On-button"
+            },
+            {
+                "url": "src/scripts/SoundManager.js",
+                "type": "script",
+                "key": "SoundManager"
+            },
+            {
+                "url": "assets/images/Splash-screen.png",
+                "type": "image",
+                "key": "Splash-screen"
+            },
+            {
+                "url": "assets/images/Target-board.png",
+                "type": "image",
+                "key": "Target-board"
+            },
+            {
+                "url": "assets/images/Watch.png",
+                "type": "image",
+                "key": "Watch"
+            },
+            {
+                "url": "assets/images/Yellow-bubble.png",
+                "type": "image",
+                "key": "Yellow-bubble"
+            },
+            {
+                "url": "assets/images/yellow-bubble-burst.png",
+                "frameConfig": {
+                    "frameWidth": 268,
+                    "frameHeight": 232,
+                    "startFrame": 0,
+                    "endFrame": 2,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "yellow-bubble-burst"
+            },
+            {
+                "url": "assets/images/Your-count-board.png",
+                "type": "image",
+                "key": "Your-count-board"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

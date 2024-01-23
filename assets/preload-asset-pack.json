@@ -1,0 +1,78 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/images/Blue1.png",
+                "type": "image",
+                "key": "Blue1"
+            },
+            {
+                "url": "assets/images/Green1.png",
+                "type": "image",
+                "key": "Green1"
+            },
+            {
+                "url": "assets/images/Loading-bar.png",
+                "type": "image",
+                "key": "Loading-bar"
+            },
+            {
+                "url": "assets/images/Loading-bar-bubble.png",
+                "type": "image",
+                "key": "Loading-bar-bubble"
+            },
+            {
+                "url": "assets/images/Loading-bar-case.png",
+                "type": "image",
+                "key": "Loading-bar-case"
+            },
+            {
+                "url": "assets/images/Logo1.png",
+                "type": "image",
+                "key": "Logo1"
+            },
+            {
+                "url": "assets/images/Orange1.png",
+                "type": "image",
+                "key": "Orange1"
+            },
+            {
+                "url": "assets/images/preGameBg.png",
+                "type": "image",
+                "key": "preGameBg"
+            },
+            {
+                "url": "assets/images/Purple1.png",
+                "type": "image",
+                "key": "Purple1"
+            },
+            {
+                "url": "assets/images/Purple2.png",
+                "type": "image",
+                "key": "Purple2"
+            },
+            {
+                "url": "assets/images/Red1.png",
+                "type": "image",
+                "key": "Red1"
+            },
+            {
+                "url": "assets/images/Red2.png",
+                "type": "image",
+                "key": "Red2"
+            },
+            {
+                "url": "assets/images/Yellow1.png",
+                "type": "image",
+                "key": "Yellow1"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

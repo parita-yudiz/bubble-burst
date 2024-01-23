@@ -1,0 +1,165 @@
+{
+    "anims": [
+        {
+            "key": "Blue-bubble-burst",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "Blue-bubble-burst",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Blue-bubble-burst",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Blue-bubble-burst",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "Green-bubble-burst",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "Green-bubble-burst",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Green-bubble-burst",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Green-bubble-burst",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "Orange-bubble-burst",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "Orange-bubble-burst",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Orange-bubble-burst",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Orange-bubble-burst",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "purple-bubble-burst",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "purple-bubble-burst",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "purple-bubble-burst",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "purple-bubble-burst",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "Red-bubble-burst",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "Red-bubble-burst",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Red-bubble-burst",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Red-bubble-burst",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "yellow-bubble-burst",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "yellow-bubble-burst",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "yellow-bubble-burst",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "yellow-bubble-burst",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    }
+}

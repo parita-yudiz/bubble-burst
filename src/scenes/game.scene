@@ -1,0 +1,237 @@
+{
+    "id": "f1b2b4ad-41a4-45a2-8e7d-1a25a673d8a4",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "game",
+        "borderWidth": 1920,
+        "borderHeight": 1080
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "e4362902-15fb-461a-9bff-b71bd7acae71",
+            "label": "gameBg",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "Bg"
+            },
+            "x": 965,
+            "y": 540,
+            "scaleX": 1.02,
+            "scaleY": 1.02,
+            "visible": false
+        },
+        {
+            "type": "Container",
+            "id": "2a3cd5ce-817e-400c-bfad-a03a3d90e70e",
+            "label": "backgroundContainer",
+            "components": [],
+            "x": 969,
+            "y": 545,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "f4d110ab-b658-40eb-8d05-34c76f8e2b9d",
+                    "label": "moves",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "Moves"
+                    },
+                    "x": -895,
+                    "y": -430
+                },
+                {
+                    "type": "Text",
+                    "id": "b9fec701-aca0-419f-89a4-62a79c6a6179",
+                    "label": "movesText",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -880,
+                    "y": -440,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "40",
+                    "align": "center",
+                    "fontFamily": "Purple Smile",
+                    "fontSize": "47px",
+                    "fontStyle": "bold",
+                    "color": "#ffffffff",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5
+                },
+                {
+                    "type": "Image",
+                    "id": "7792a2ff-dce3-41c7-9b3f-927d7a02e6db",
+                    "label": "timer",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "Watch"
+                    },
+                    "x": 866,
+                    "y": -431
+                },
+                {
+                    "type": "Text",
+                    "id": "add8d641-59a0-4986-a674-7a5763aefe8a",
+                    "label": "timerText",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 860,
+                    "y": -434.166748046875,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "50",
+                    "align": "center",
+                    "fontFamily": "Purple Smile",
+                    "fontSize": "45px",
+                    "fontStyle": "bold",
+                    "color": "#ffffffff",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5
+                },
+                {
+                    "type": "Image",
+                    "id": "ac2d7bae-f74b-4764-a138-90c299ae428b",
+                    "label": "scoreBg",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "Score-Board"
+                    },
+                    "x": -20,
+                    "y": 475
+                },
+                {
+                    "type": "Text",
+                    "id": "d08e9d9c-68c7-48ea-8973-b3985a66f53f",
+                    "label": "scoreText",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -20,
+                    "y": 450,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Score",
+                    "align": "center",
+                    "fontFamily": "Purple Smile",
+                    "fontSize": "30px",
+                    "fontStyle": "bold",
+                    "color": "#ffffffff",
+                    "stroke": "#030303ff",
+                    "strokeThickness": 4,
+                    "backgroundColor": ""
+                },
+                {
+                    "type": "Text",
+                    "id": "ef5f17d5-0458-43d5-ba8b-d6fc6c569204",
+                    "label": "text_1",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -20,
+                    "y": 495,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "0",
+                    "align": "center",
+                    "fontFamily": "Purple Smile",
+                    "fontSize": "50px",
+                    "fontStyle": "bold",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "be141d06-c979-4ddc-82f7-1c4b374530ee",
+            "label": "targetScoreContainer",
+            "components": [],
+            "x": 1715,
+            "y": 880,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "dbc60c6d-c1a5-4da8-9556-61c7ba35c69a",
+                    "label": "star",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "Target-board"
+                    },
+                    "x": 75,
+                    "y": 90
+                },
+                {
+                    "type": "Text",
+                    "id": "2df57a95-0679-4436-b09c-56e3320f07f7",
+                    "label": "starTargetText",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": 90,
+                    "y": 40,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "0",
+                    "align": "center",
+                    "fontFamily": "Purple Smile",
+                    "fontSize": "58px",
+                    "fontStyle": "bold",
+                    "color": "#fffbfbff",
+                    "stroke": "#030303ff",
+                    "strokeThickness": 0.75
+                },
+                {
+                    "type": "Image",
+                    "id": "fc651862-78be-4819-b872-5987e82f9df4",
+                    "label": "oval",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "Your-count-board"
+                    },
+                    "x": -1585,
+                    "y": 90
+                },
+                {
+                    "type": "Text",
+                    "id": "4e1e01a8-9faa-45b3-ad03-8eebc69db723",
+                    "label": "ovalTargetText",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -1595,
+                    "y": 40,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "0",
+                    "align": "center",
+                    "fontFamily": "Purple Smile",
+                    "fontSize": "60px",
+                    "fontStyle": "bold",
+                    "color": "#fffbfbff",
+                    "stroke": "#030303ff",
+                    "strokeThickness": 0.75
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "b203a86e-cc3a-42b5-a825-e5380ef13158",
+            "label": "emptContainer",
+            "scope": "CLASS",
+            "components": [],
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

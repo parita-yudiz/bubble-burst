@@ -1,0 +1,97 @@
+{
+    "id": "01aefa93-6044-4159-8358-7e91310aa05f",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "borderWidth": 1920,
+        "borderHeight": 1080
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "1834a3db-b3ec-47eb-8161-c4c09d808eff",
+            "label": "gameBg",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "Bg"
+            },
+            "x": 960,
+            "y": 540,
+            "scaleX": 1.02,
+            "scaleY": 1.02,
+            "visible": false
+        },
+        {
+            "type": "Container",
+            "id": "9884c764-4cf1-4629-a756-865efb2de8c3",
+            "label": "loadingBarContainer",
+            "scope": "CLASS",
+            "components": [],
+            "x": 945,
+            "y": 285,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "d5e5dbef-95ef-4d30-a9c1-f60b349500b9",
+                    "label": "logo",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "Logo"
+                    },
+                    "x": 15,
+                    "y": 30,
+                    "scaleX": 1.3,
+                    "scaleY": 1.3
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "7a2c5b04-2e4f-4152-b870-a621cb9c78c3",
+            "label": "playBtn",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "Play-button"
+            },
+            "x": 960,
+            "y": 825
+        },
+        {
+            "type": "Image",
+            "id": "63452339-694e-4643-9f6b-c265d8b68604",
+            "label": "soundOn",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "Sound-On-button"
+            },
+            "x": 1865,
+            "y": 70
+        },
+        {
+            "type": "Image",
+            "id": "566c4d76-96ce-4e89-b5b9-6a3c4c7db399",
+            "label": "soundOff",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "Sound-Off-Button"
+            },
+            "x": 1865,
+            "y": 70,
+            "visible": false
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

@@ -1,0 +1,153 @@
+{
+    "id": "e4154ed4-b9ad-4296-bc8b-483d41f9ef28",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "GameOver",
+        "borderWidth": 1920,
+        "borderHeight": 1080
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "7f447019-a691-45c1-bf22-648f973e9a55",
+            "label": "gameBg",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "Bg"
+            },
+            "x": 965,
+            "y": 540,
+            "scaleX": 1.02,
+            "scaleY": 1.02,
+            "visible": false
+        },
+        {
+            "type": "Container",
+            "id": "8d30620d-1308-4428-9c8c-9b8d70a80e70",
+            "label": "gameOverContainer",
+            "scope": "CLASS",
+            "components": [],
+            "x": 974.9999703561407,
+            "y": 569.5000178575026,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "99209916-b1fb-4c63-ab2f-417434481832",
+                    "label": "gameOver",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "Game-over-board"
+                    },
+                    "x": -5.3038033639530795,
+                    "y": -15.126787877033735
+                },
+                {
+                    "type": "Image",
+                    "id": "431a7a4c-b89c-4f1e-95f3-f85790732cf2",
+                    "label": "gameOverTxt",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "GameOver_1"
+                    },
+                    "x": -15,
+                    "y": -275
+                },
+                {
+                    "type": "Image",
+                    "id": "69a32253-1057-438b-9a90-4b19541518ed",
+                    "label": "replayBtn",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "Replay-Button"
+                    },
+                    "x": -12,
+                    "y": 165
+                },
+                {
+                    "type": "Text",
+                    "id": "cd7d80c7-245a-4ba0-bf55-ac73ff5981fd",
+                    "label": "displayReason",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -10.30380336395308,
+                    "y": -125.12678787703373,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Out Of Moves!",
+                    "align": "center",
+                    "fontFamily": "Purple Smile",
+                    "fontSize": "35px",
+                    "fontStyle": "bold",
+                    "color": "#fefefeff",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5
+                },
+                {
+                    "type": "Text",
+                    "id": "06140170-c30b-4d68-8a28-bc20ce9c6d02",
+                    "label": "displayScore",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -10.30380336395308,
+                    "y": 19.873212122966265,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "0",
+                    "align": "center",
+                    "fontFamily": "Purple Smile",
+                    "fontSize": "50px",
+                    "fontStyle": "bold",
+                    "color": "#ffffffff",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5
+                },
+                {
+                    "type": "Text",
+                    "id": "d40b8ffc-1415-4900-a767-336a2df96eb0",
+                    "label": "displayScore_1",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -10.30380336395308,
+                    "y": -50.126787877033735,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Score",
+                    "align": "center",
+                    "fontFamily": "Purple Smile",
+                    "fontSize": "35px",
+                    "fontStyle": "bold",
+                    "color": "#ffffffff",
+                    "stroke": "#000000ff",
+                    "strokeThickness": 5
+                },
+                {
+                    "type": "Image",
+                    "id": "ca60a428-0076-45ad-8ca4-7f917a5a2e25",
+                    "label": "homeBtn",
+                    "scope": "CLASS",
+                    "components": [],
+                    "texture": {
+                        "key": "Home-button"
+                    },
+                    "x": -6,
+                    "y": 275,
+                    "scaleX": 0.9,
+                    "scaleY": 0.9
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}
